@@ -10,6 +10,14 @@ You will need **blender** and **python** to be installed on your computer. Also 
 
 There is a fairly helpful prompt system in the scripts. But there are some things to know.
 
+## Downloading
+
+Click on the green `Code` button near the `About` section of the page. At the bottom of the panel that opens, click the option `Download ZIP`.
+
+Once it is downloaded, extract the ZIP archive into a folder.
+
+Finally, you can place the asset pack folders and/or files into the same directory as the `.py` files. (They can be in any number of sub-folders, but they cannot be in a zip archive).
+
 ## Glob Patterning
 Because this script uses glob patterning, you will need to be sure that `glob` is installed for your python installation. It is part of the standard library, so it is very likely already installed, but if you have a very old installation it may not be.
 
