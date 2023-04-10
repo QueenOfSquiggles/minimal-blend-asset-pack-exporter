@@ -20,7 +20,8 @@ def select_option(options: list) -> str:
 
 def get_all_blend_files() -> list:
     # just as a test let's focus on one
-    return glob.glob("./**/*.blend")
+    root_dir = glob.glob("*.blend")
+    return root_dir + glob.glob("**/*.blend")
 
     #
     #
